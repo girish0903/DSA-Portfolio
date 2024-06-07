@@ -55,3 +55,20 @@ Future enhancements and tasks to complete:
 - Develop a mobile application interface for better user experience.
 - Implement more advanced data analytics to gain insights from trip history and feedback.
 - Expand the feedback system to include more detailed user reviews and suggestions.
+
+## 7. Implemented Functionalities
+The following functionalities have been implemented in the project:
+
+### Ride-Matching System
+
+This project matches users with the closest available drivers using a priority queue.
+
+#### Functionality
+
+Efficiently matches users with the nearest available driver.
+
+#### Concepts Used
+
+- Priority Queue
+- Structs
+- Comparison Operators
