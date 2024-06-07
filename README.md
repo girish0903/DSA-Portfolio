@@ -96,3 +96,24 @@ The A* algorithm expands nodes based on their total cost (g + h), prioritizing n
 - **A\* Search**: The A* search algorithm is a popular pathfinding algorithm used in navigation and optimization problems. It utilizes a heuristic function to estimate the cost of reaching the goal from a particular node, along with the actual cost of reaching that node from the start. A* maintains an open set of nodes to be evaluated, prioritized by their total estimated cost (heuristic cost + actual cost). At each step, it expands the node with the lowest total cost, exploring adjacent nodes and updating their costs accordingly. This algorithm guarantees to find the shortest path if a solution exists, provided that the heuristic function satisfies certain conditions.
 
 - **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
+
+## 7.4 Fare Calculation
+
+### Functionality 
+
+The provided code implements dynamic programming (DP) to calculate the minimum fare for traveling a given distance and time, taking into account surge pricing if applicable. It utilizes a DP table to efficiently store and retrieve the minimum fare for each combination of distance and time.
+
+### Concepts Used
+
+- **Dynamic Programming (DP)**: DP is a technique for solving optimization problems by breaking them down into simpler subproblems and storing the solutions to these subproblems to avoid redundant computations.
+In this code, DP is used to compute the minimum fare for various combinations of distance and time, ensuring optimal fare calculation.
+
+## 7.5 Trip History 
+
+### Functionality
+
+The code implements a trip history analyzer that processes queries related to analyzing trip data. It utilizes the MO's algorithm to efficiently handle queries by decomposing the array of trip records and performing range queries within the subarrays. The main functionality includes finding the most frequent routes based on the given trip data and queries.
+
+### Concepts Used
+
+- **MO's Algorithm**: The MO's algorithm is a square root decomposition technique used for offline processing of range queries efficiently. It divides the array of queries into blocks of size approximately sqrt(N) and sorts them based on block numbers and right endpoints. By processing queries in a sorted order and maintaining a window of relevant data, MO's algorithm achieves optimal time complexity.
