@@ -69,6 +69,4 @@ Efficiently matches users with the nearest available driver.
 
 #### Concepts Used
 
-- Priority Queue
-- Structs
-- Comparison Operators
+- **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
