@@ -59,7 +59,7 @@ Future enhancements and tasks to complete:
 ## 7. Implemented Functionalities
 The following functionalities have been implemented in the project:
 
-## 7.1 Ride-Matching System [Code](https://github.com/girish0903/Ola-Portfolio/blob/main/priorityqueue.cpp)
+## 7.1 Ride-Matching System [(Code)](https://github.com/girish0903/Ola-Portfolio/blob/main/priorityqueue.cpp)
 
 This matches users with the closest available drivers using a priority queue.
 
@@ -71,7 +71,7 @@ Efficiently matches users with the nearest available driver.
 
 - **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
 
-## 7.2 Driver Management System
+## 7.2 Driver Management System [(Code)](https://github.com/girish0903/Ola-Portfolio/blob/main/redblack.cpp)
 
 This manages a pool of available drivers using a red-black tree to efficiently handle driver information based on proximity to users.
 
@@ -83,7 +83,7 @@ Efficiently stores and retrieves driver information based on their availability 
 
 - **Red-Black Tree**: A Red-Black Tree is a type of self-balancing binary search tree. It ensures that the tree remains approximately balanced, providing efficient operations for insertion, deletion, and lookup.
 
-## 7.3 Route Optimization and Driver Navigation
+## 7.3 Route Optimization and Driver Navigation [(Code)](https://github.com/girish0903/Ola-Portfolio/blob/main/astar.cpp)
 
 This code implements the A* search algorithm to find the most efficient route from a start point to a goal point on a grid, considering obstacles. This is useful for optimizing routes for drivers navigating through city streets or other areas.
 
@@ -97,7 +97,7 @@ The A* algorithm expands nodes based on their total cost (g + h), prioritizing n
 
 - **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
 
-## 7.4 Fare Calculation
+## 7.4 Fare Calculation [(Code)](https://github.com/girish0903/Ola-Portfolio/blob/main/dp.cpp)
 
 ### Functionality 
 
@@ -108,7 +108,7 @@ The provided code implements dynamic programming (DP) to calculate the minimum f
 - **Dynamic Programming (DP)**: DP is a technique for solving optimization problems by breaking them down into simpler subproblems and storing the solutions to these subproblems to avoid redundant computations.
 In this code, DP is used to compute the minimum fare for various combinations of distance and time, ensuring optimal fare calculation.
 
-## 7.5 Trip History 
+## 7.5 Trip History [(Code)](https://github.com/girish0903/Ola-Portfolio/blob/main/mo.cpp)
 
 ### Functionality
 
