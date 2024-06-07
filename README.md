@@ -31,8 +31,6 @@ This portfolio is created to demonstrate the practical application of data struc
 - Implement efficient algorithms for matching users with drivers based on proximity and availability.
 - Optimize routes for rides considering traffic conditions and estimated time of arrival.
 - Develop a dynamic fare calculation system that adapts to various factors such as distance and time.
-- Enable real-time tracking of rides for both users and drivers.
-- Maintain a comprehensive trip history and feedback system to enhance user satisfaction.
 
 ## 4. Design
 The design of this project involves several key components:
@@ -49,12 +47,10 @@ Throughout the development of this project, several challenges were encountered:
 - Ensuring efficient matching of users with drivers in real-time.
 - Optimizing routes to minimize travel time and distance considering dynamic traffic conditions.
 - Implementing a flexible fare calculation system that accounts for various dynamic factors.
-- Providing seamless real-time tracking and communication between users and drivers.
-- Maintaining a scalable database of trip histories and feedback.
+
 
 ## 6. To-Do
 Future enhancements and tasks to complete:
-- Integrate machine learning algorithms to predict demand and optimize driver allocation.
 - Enhance the real-time tracking system with more accurate GPS data.
 - Develop a mobile application interface for better user experience.
 - Implement more advanced data analytics to gain insights from trip history and feedback.
