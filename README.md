@@ -59,14 +59,45 @@ Future enhancements and tasks to complete:
 ## 7. Implemented Functionalities
 The following functionalities have been implemented in the project:
 
-### Ride-Matching System
+## 7.1 Ride-Matching System
 
-This project matches users with the closest available drivers using a priority queue.
+This matches users with the closest available drivers using a priority queue.
 
-#### Functionality
+### Functionality
 
 Efficiently matches users with the nearest available driver.
 
-#### Concepts Used
+### Concepts Used
+
+- **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
+
+## 7.2 Driver Management System
+
+This manages a pool of available drivers using a red-black tree to efficiently handle driver information based on proximity to users.
+
+### Functionality
+
+Efficiently stores and retrieves driver information based on their availability and proximity to users.
+
+### Concepts Used
+
+- **Red-Black Tree**: A Red-Black Tree is a type of self-balancing binary search tree. It ensures that the tree remains approximately balanced, providing efficient operations for insertion, deletion, and lookup.
+
+## 7.3 Route Optimization and Driver Navigation
+
+This code implements the A* search algorithm to find the most efficient route from a start point to a goal point on a grid, considering obstacles. This is useful for optimizing routes for drivers navigating through city streets or other areas.
+
+### Functionality
+
+The A* algorithm expands nodes based on their total cost (g + h), prioritizing nodes with lower costs. It explores adjacent nodes in all directions (up, down, left, right) and calculates their costs. It continues until the goal node is reached or no more nodes can be expanded.
+
+### Concepts Used 
+
+- **A\* Search**:
+- The A* search algorithm is a popular pathfinding algorithm used in navigation and optimization problems.
+- It utilizes a heuristic function to estimate the cost of reaching the goal from a particular node, along with the actual cost of reaching that node from the start.
+- A* maintains an open set of nodes to be evaluated, prioritized by their total estimated cost (heuristic cost + actual cost).
+- At each step, it expands the node with the lowest total cost, exploring adjacent nodes and updating their costs accordingly.
+- This algorithm guarantees to find the shortest path if a solution exists, provided that the heuristic function satisfies certain conditions.
 
 - **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
