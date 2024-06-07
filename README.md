@@ -93,11 +93,6 @@ The A* algorithm expands nodes based on their total cost (g + h), prioritizing n
 
 ### Concepts Used 
 
-- **A\* Search**:
-- The A* search algorithm is a popular pathfinding algorithm used in navigation and optimization problems.
-- It utilizes a heuristic function to estimate the cost of reaching the goal from a particular node, along with the actual cost of reaching that node from the start.
-- A* maintains an open set of nodes to be evaluated, prioritized by their total estimated cost (heuristic cost + actual cost).
-- At each step, it expands the node with the lowest total cost, exploring adjacent nodes and updating their costs accordingly.
-- This algorithm guarantees to find the shortest path if a solution exists, provided that the heuristic function satisfies certain conditions.
+- **A\* Search**: The A* search algorithm is a popular pathfinding algorithm used in navigation and optimization problems. It utilizes a heuristic function to estimate the cost of reaching the goal from a particular node, along with the actual cost of reaching that node from the start. A* maintains an open set of nodes to be evaluated, prioritized by their total estimated cost (heuristic cost + actual cost). At each step, it expands the node with the lowest total cost, exploring adjacent nodes and updating their costs accordingly. This algorithm guarantees to find the shortest path if a solution exists, provided that the heuristic function satisfies certain conditions.
 
 - **Priority Queue**: A data structure that allows efficient retrieval of the smallest (or largest) element. In this project, it's used to keep track of available drivers, prioritized by their distance to the user.
